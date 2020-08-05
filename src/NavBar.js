@@ -3,6 +3,8 @@ import "./NavBar.css";
 
 function NavBar() {
   const [show, handleShow] = useState(false);
+
+  // scroll effect on navbar
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 130) handleShow(true);
@@ -12,6 +14,7 @@ function NavBar() {
       window.removeEventListener("scroll");
     };
   }, []);
+
   return (
     <div>
       <div className={`nav ${show && "nav__black"}`}>

@@ -19,6 +19,8 @@
   width: 80px;
   object-fit: contain;
 }
+
+/* sign in btn */
 .nav_avatar {
   position: fixed;
   right: 20px;

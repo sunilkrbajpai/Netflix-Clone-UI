@@ -12,6 +12,7 @@
   display: none;
 }
 
+/* poster css */
 .row_poster {
   object-fit: contain;
   width: 100%;
@@ -22,12 +23,16 @@
 .row_poster:hover {
   transform: scale(1.08);
 }
+
+/* large poster css */
 .row_posterLarge {
   max-height: 250px;
 }
 .row_posterLarge:hover {
   transform: scale(1.09);
 }
+
+/* for mobile deviice */
 @media screen and (max-width: 550px) {
   .row_posters {
     padding: 10px !important;

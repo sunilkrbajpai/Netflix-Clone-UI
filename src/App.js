@@ -8,6 +8,7 @@ import NavBar from "./NavBar";
 function App() {
   return (
     <div className="app">
+      {/* all components load */}
       <NavBar />
       <Banner />
       <Row

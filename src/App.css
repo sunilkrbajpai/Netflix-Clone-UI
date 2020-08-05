@@ -5,6 +5,8 @@
   background-color: #111;
   width: 100%;
 }
+
+/* hiding scroll bar */
 ::-webkit-scrollbar {
   width: 0px !important;
 }
